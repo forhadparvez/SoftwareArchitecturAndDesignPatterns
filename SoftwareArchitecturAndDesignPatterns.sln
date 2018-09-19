@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{876EAA30-E6CD-4144-8DA8-87B797CDD0E6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 CreationalPatterns", "01 CreationalPatterns", "{876EAA30-E6CD-4144-8DA8-87B797CDD0E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPattern.AbstractFactory", "CreationalPattern.AbstractFactory\CreationalPattern.AbstractFactory.csproj", "{8BC42FEA-FFD6-4C46-98C8-A9E7723F5CC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 StructuraPatterns", "02 StructuraPatterns", "{CF66A2DF-CF30-4C50-9050-A0EF3037AA2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 BehavioralPatterns", "03 BehavioralPatterns", "{A4FEEAB2-C55C-4F4F-80F2-2323DCB83CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPattern.AdapterPattern", "StructuralPattern.AdapterPattern\StructuralPattern.AdapterPattern.csproj", "{87F54608-A2F2-4BA3-9B78-5B81C3A61DDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +23,17 @@ Global
 		{8BC42FEA-FFD6-4C46-98C8-A9E7723F5CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC42FEA-FFD6-4C46-98C8-A9E7723F5CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC42FEA-FFD6-4C46-98C8-A9E7723F5CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F54608-A2F2-4BA3-9B78-5B81C3A61DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F54608-A2F2-4BA3-9B78-5B81C3A61DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F54608-A2F2-4BA3-9B78-5B81C3A61DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F54608-A2F2-4BA3-9B78-5B81C3A61DDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8BC42FEA-FFD6-4C46-98C8-A9E7723F5CC7} = {876EAA30-E6CD-4144-8DA8-87B797CDD0E6}
+		{87F54608-A2F2-4BA3-9B78-5B81C3A61DDF} = {CF66A2DF-CF30-4C50-9050-A0EF3037AA2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE58E17C-3202-4A12-B143-044E4A9A0B6D}
